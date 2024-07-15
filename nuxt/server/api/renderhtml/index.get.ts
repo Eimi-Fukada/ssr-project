@@ -5,6 +5,6 @@ export default defineEventHandler(async (event) => {
 
   return {
     status: 1,
-    msg: `html-success + ${query?.id}`,
+    msg: `html-success + ${query?.id || ""}`,
   };
 });

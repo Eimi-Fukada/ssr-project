@@ -4,7 +4,7 @@ export default defineEventHandler(async (event) => {
   const query = getQuery(event);
 
   return {
-    code: 0,
+    code: 200,
     data: {},
     msg: "success",
   };
