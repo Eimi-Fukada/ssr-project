@@ -16,6 +16,7 @@ const getInfo = async () => {
       id: 1
     }
   })
+  // createSSRApp(data).mount('#app')
   console.log('res======', data)
 }
 
